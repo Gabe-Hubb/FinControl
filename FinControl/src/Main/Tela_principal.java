@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
 
 public class Tela_principal extends JFrame {
 
@@ -36,6 +37,9 @@ public class Tela_principal extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
+		
+		JLabel lblNewLabel = new JLabel("teste");
+		contentPane.add(lblNewLabel);
 
 	}
 
